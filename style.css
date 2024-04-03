@@ -1,0 +1,192 @@
+/* Styles généraux */
+body {
+    font-family: Raleway, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #CDFCF6;
+    color: #333;
+}
+
+.banner {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+h1 {font-size: 3em; /* Augmente la taille de la police */
+    font-family: "Cinzel", serif;
+    text-align: center; /* Centre le titre */
+    margin-bottom: 20px;
+}
+h2{font-size: 1.5em; /* Augmente la taille de la police */
+    font-family: "Amatic SC", sans-serif;
+    text-align: center; /* Centre le titre */
+    margin-bottom: 20px;
+    color: #00224D
+
+}
+h3{
+  font-size: 17px;
+  font-family: "Indie Flower", cursive;
+  color:#D37676;
+}
+h5{
+  color :#D37676;
+  font-family: "Indie Flower", cursive;
+}
+.Button {
+  max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #98A8F8;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.Button:hover{
+    background-color: #DBC4F0;
+}
+.Summary{
+   max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-family: "Great Vibes",sans-serif;"
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+.Education{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+.Languages{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+.Skills{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+.Travel{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+.Dance{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+.Sewing{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+
+}
+.Contacts{
+  max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    font-size: 17px;
+    font-color:#570530;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: #570530;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
+a:hover {
+    color: #D20062;
+    font-size: 1.1em;
+}
+
+#picture {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 50%; /* Cadre rond */
+    overflow: hidden; /* Masquer les coins extérieurs */
+    margin-bottom: 20px;
+}
+}
+
+/* Contacts */
+.fa-solid, .fa-brands {
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+
+/* Réseaux sociaux */
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+.list-inline li{
+    display: inline;
+    padding: 10px;
+}
+.container{
+    width: 100%;
+    margin: 40px auto;
+}
+
+@media(max-width: 760px){
+    .container {
+        width: 600px;
+    }
+}
+@media(max-width: 500px){
+    .container {
+        width: 400px;
+    }
+}
